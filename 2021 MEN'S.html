@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+<style media="screen">
+  *{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    boarder-collapse: collapse;
+    margin: 0px;
+    color: #000;
+  }
+
+  h1{
+    font-size: 48px;
+    font-weight: 100;
+  }
+.contents{
+  font-size:20px;
+  font-weight: lighter;
+}
+
+  .header{
+    display:flex;
+    width:1280px;
+    margin: auto;
+    height:86px;
+  }
+  .searchArea{
+    width:300px;
+    height:40px;
+    background: rgba(0,0,0,0,5);
+    border-radius: 5px;
+    margin-top:24px;
+  }
+
+  .searchArea > form > input {
+    border: none;
+    width:250px;
+    height:40px;
+    background: rgba(0,0,0,0,0);
+    color:black;
+    padding-left: 10px;
+  }
+
+  .searchArea > form > span{
+    width: 50px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .nav{
+    display:flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width:calc(1280px - 300px);
+
+  }
+
+  .nav > li{
+    margin-left:84px;
+  }
+
+  .nav > li > a {
+    color:black;
+  }
+.intro_text{
+  width:100%;
+  margin:231px auto 231px auto;
+  text-align:center;
+}
+.intro_text > h1{
+  font-size: 48px;
+}
+  .intro_text > h1,
+  .intro_text > h4{
+    color:black;
+  }
+
+  #logo{
+    float:left;
+    margin: 20px 0 0 20px;
+  }
+
+  #link_header{
+
+  }
+
+</style>
+  </head>
+  <body>
+    <div id="logo">
+      <img src="./img/logo-small.svg">
+    </div>
+
+    <div class="wrap">
+      <div class="intro_bg">
+        <div class="header">
+          <div class="searchArea">
+            <form>
+            <input type="search"placeholder="Search">
+            <span>검색</span>
+            </form>
+          </div>
+          <ul class="nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="2021 MEN'S.html">2021 MEN'S</a></li>
+            <li><a href="2021 WOMAN'S.html">2021 WOMEN'S</a></li>
+            <li><a href="ABOUT.html">ABOUT</a></li>
+          </ul>
+        </div>
+
+        <div class="intro_text">
+        <h1>2021 MEN'S</h1>
+        <h4 class="contents1">ART DIRECTION: Anthony VACCARELLO</h4>
+        <h4 class="contents1">DIRECTOR: Nathalie CANGUILHEM</h4>
+        <h4 class="contents1">PHOTOGRAPHER: Quentin DE BRIEY</h4>
+        <h4 class="contents1"><img src="img/m1.jpeg"><img src="img/m2.jpeg"></h4>
+        <h1>SAINT LAURENT - MEN'S SPRING SUMMER 2021</h1>
+        <h4 class="contents1"><video width='1000' height="700" autoplay controls loop>
+          <source src="man.mp4" type="video/mp4">
+          <source src="man.mp4" type="video/video/webm">
+          <source src="man.mp4" type="video/ogg">
+        </video></h4>
+        </div>
+
+</body>
+</html>
